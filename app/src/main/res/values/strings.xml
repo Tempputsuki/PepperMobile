@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">PepperMobile</string>
+    <string name="hitTxt">Hit</string>
+    <string name="standTxt">Stand</string>
 </resources>

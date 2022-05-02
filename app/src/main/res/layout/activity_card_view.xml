@@ -38,7 +38,7 @@
         android:layout_height="66dp"
         android:layout_marginStart="92dp"
         android:layout_marginBottom="108dp"
-        android:text="Hit"
+        android:text="@string/standTxt"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/standButton"
         app:layout_constraintHorizontal_bias="0.0"
@@ -50,7 +50,7 @@
         android:layout_height="66dp"
         android:layout_marginEnd="44dp"
         android:layout_marginBottom="108dp"
-        android:text="Stand"
+        android:text="@string/hitTxt"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
