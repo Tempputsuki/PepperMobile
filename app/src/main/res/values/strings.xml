@@ -3,4 +3,6 @@
     <string name="hitTxt">Hit</string>
     <string name="standTxt">Stand</string>
     <string name="quitTxt">Quit</string>
+    <string name="kalle">Next</string>
+    <string name="welcome">Welcome to Pepper\'s Casino!</string>
 </resources>

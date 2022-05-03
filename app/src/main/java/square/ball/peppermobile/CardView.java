@@ -29,7 +29,7 @@ public class CardView extends AppCompatActivity {
         card1 = (ImageView) findViewById(R.id.card1);
         card2 = (ImageView) findViewById(R.id.card2);
 
-        standBtn.setOnClickListener(new View.OnClickListener() {
+        /*standBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
                 Log.d("buttonPressed", "stand toimii");
@@ -51,7 +51,7 @@ public class CardView extends AppCompatActivity {
                 startActivity(i);
 
             }
-        });
+        });*/
     }
 
     //Stand funktio firebasen kaa

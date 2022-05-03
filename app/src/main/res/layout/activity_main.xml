@@ -8,20 +8,22 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Welcome to Pepper's Casino!"
+        android:layout_width="349dp"
+        android:layout_height="153dp"
+        android:text="@string/welcome"
+        android:textSize="25dp"
         app:layout_constraintBottom_toTopOf="@+id/kalle"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.508" />
 
     <Button
         android:id="@+id/kalle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="159dp"
-        android:text="Play a game"
+        android:text="@string/kalle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
